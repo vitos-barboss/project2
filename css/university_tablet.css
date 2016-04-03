@@ -1,0 +1,236 @@
+@media screen and (min-width: 800px) {
+
+    .joinUs {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 25px;
+        width: 800px;
+        box-sizing: border-box;
+    }
+
+    .nameUniversity {
+        border-bottom: none;
+        padding: 14px ;
+    }
+
+    .logoName {
+        flex-direction: row;
+    }
+
+    .mainText {
+        text-align: left;
+    }
+
+    .opacityLayout {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mainText {
+        margin: 0;
+        padding-top: 0;
+        max-width: 244px;
+    }
+
+    .containerMainSection {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+
+    .history_text_wrapper {
+        margin: 0 22px;
+        width: 445px;
+    }
+
+    .history {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .history p {
+        text-align: left;
+    }
+
+    .history h2 {
+        text-align: left;
+        margin: 0;
+    }
+
+    /*------------------------------weAreBest----------*/
+
+    .weAreBest {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .qualityEnvironment,
+    .qualityPrograms,
+    .excellentTeachers{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0;
+
+    }
+
+    .imgWeAreBest {
+        margin: 0;
+    }
+
+    .weAreBestContainer {
+        margin: 0 auto;
+        width: 758px;
+    }
+
+    .weAreBest_text_wrapper {
+        text-align: left;
+        width: 440px;
+    }
+
+    .weAreBestContainer h3 {
+        padding: 0 0 23px;
+    }
+
+    .weAreBestContainer p {
+        padding-bottom: 17px;
+        line-height: 1.6;
+        height: 80px;
+    }
+
+    .viewLink {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    /* ------------------------------reviews ----------*/
+
+    .review {
+        min-height: 444px;
+    }
+
+    .reviewContainer {
+        width: 800px;
+
+    }
+
+    .reviewsHead {
+        text-align: left;
+        margin: 0;
+    }
+
+    .reviewTop,
+    .reviewBottom{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .memberReview {
+        width: 600px;
+    }
+
+        /* ------------------------------getStarted ----------*/
+
+
+    .getStarted {
+        float: left;
+        width: 1000px;
+        border: 1px solid blue;
+
+
+    }
+
+    .getStartedBox {
+        width: 470px;
+        height: 61px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
+        left: 0;
+        margin: 0;
+        bottom: 64px;
+    }
+
+    .getStartedClick {
+        padding-bottom: 0;
+    }
+
+    .arrowGetStarted {
+        margin: 0;
+
+    }
+
+    .getStartedBackground {
+        height: 190px;
+    }
+
+
+
+
+
+    /*-------------------------------------*/
+
+    .nameUniversityTablet {
+        width: 135px;
+        border-right: 1px solid #2980b9;
+        padding-right: 0;
+    }
+
+    .joinContainerTablet {
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+
+    .joinConnectsTablet {
+         padding: 5px 25px;
+         width: 180px;
+     }
+
+    .joinConnectsTablet p{
+        margin-right: 5px;
+    }
+
+
+
+    footer {
+        height: 39px;
+        width: 450px;
+    }
+
+    footer p {
+        width: 450px;
+        text-align: left;
+    }
+
+    .footerMobile {
+        display: none;
+    }
+
+    .footerTablet {
+        display: block;
+        padding: 5px 22px;
+    }
+
+    .footerTablet p {
+        font-size: 13px;
+        color: #ffffff;
+        text-align: left;
+        margin: 0;
+    }
+
+    .joinConnectsTabletFooter {
+        display: block;
+    }
+
+}
