@@ -77,7 +77,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         margin: 0;
-
     }
 
     .imgWeAreBest {
@@ -120,7 +119,6 @@
 
     .reviewContainer {
         width: 800px;
-
     }
 
     .reviewsHead {
@@ -138,15 +136,12 @@
         width: 600px;
     }
 
-        /* ------------------------------getStarted ----------*/
-
+    /* ------------------------------getStarted ----------*/
 
     .getStarted {
         float: left;
         width: 1000px;
         border: 1px solid blue;
-
-
     }
 
     .getStartedBox {
@@ -167,16 +162,11 @@
 
     .arrowGetStarted {
         margin: 0;
-
     }
 
     .getStartedBackground {
         height: 190px;
     }
-
-
-
-
 
     /*-------------------------------------*/
 
@@ -189,7 +179,6 @@
     .joinContainerTablet {
         flex-direction: row;
         justify-content: flex-start;
-
     }
 
     .joinConnectsTablet {
@@ -200,8 +189,6 @@
     .joinConnectsTablet p{
         margin-right: 5px;
     }
-
-
 
     footer {
         height: 39px;
